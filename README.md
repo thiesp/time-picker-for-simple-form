@@ -18,7 +18,7 @@ Or install it yourself as:
 
     $ gem install time_wrapper
     
-### SCSS
+### In application.scss
 
 ```scss
 @import 'time_wrapper';
@@ -26,7 +26,7 @@ Or install it yourself as:
 
 This will `@import 'bootstrap-datetimepicker';` for you.
 
-### JS
+### In application.js
 
 ```
 //= require time_wrapper
@@ -42,12 +42,15 @@ Given a datetime field named `time` use the following in simple form:
 <%= f.input :time, as: :string, wrapper: :time %>
 ```
 
-## Generate SCSS
+## Generate stylesheets
 
+If you want to customize the stylesheets.
 
     $ rails g time_wrapper:stylesheets
 
 
-## Generate JS
+## Generate javascripts
+
+If you want to customize the javascripts.
 
     $ rails g time_wrapper:javascripts
