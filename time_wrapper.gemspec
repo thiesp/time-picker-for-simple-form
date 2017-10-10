@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Wrapper for simple form to support a timepicker}
   spec.description   = %q{Wrapper for simple form to support a timepicker}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.homepage      = "https://github.com/thiesp/time-picker-for-simple-form"
+  spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
