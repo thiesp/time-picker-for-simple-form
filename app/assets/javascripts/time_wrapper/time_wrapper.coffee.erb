@@ -1,0 +1,13 @@
+$ ->
+  assign_timepickers()
+
+@assign_timepickers = (target = 'body') ->
+  $(target).find('div.timepicker').datetimepicker({
+    format: "<%= I18n.t('date.formats.timepicker') %>",
+    icons: {
+      time: "fa fa-clock-o",
+      date: "fa fa-calendar",
+      up: "fa fa-arrow-up",
+      down: "fa fa-arrow-down"
+    }
+  })
