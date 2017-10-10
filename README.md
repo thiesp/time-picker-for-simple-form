@@ -17,6 +17,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install time_wrapper
+
+### Setup dependencies
+* bootstrap
+* momentjs-rails
+* font-awesome-rails
+* simple_form
     
 ### In application.scss
 
