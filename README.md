@@ -45,9 +45,9 @@ Given a datetime field named `time` use the following in simple form:
 ## Generate SCSS
 
 
-    $ rails g time_wrapper:scss
+    $ rails g time_wrapper:stylesheets
 
 
 ## Generate JS
 
-    $ rails g time_wrapper:js
+    $ rails g time_wrapper:javascripts
