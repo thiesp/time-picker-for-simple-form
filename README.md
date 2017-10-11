@@ -48,6 +48,12 @@ Given a datetime field named `time` use the following in simple form:
 <%= f.input :time, as: :string, wrapper: :time %>
 ```
 
+To get proper setter and getters, as well as basic format validation (you probably want to add your own) use the following in you model:
+
+```ruby
+time_attribute :time
+```
+
 ## Generate stylesheets
 
 If you want to customize the stylesheets.
