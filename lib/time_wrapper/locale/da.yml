@@ -1,4 +1,8 @@
 da:
+  date:
+    formats:
+      timepicker: "HH:mm"
+
   errors:
     messages:
       wrong_time_format: forkert tidsformat
