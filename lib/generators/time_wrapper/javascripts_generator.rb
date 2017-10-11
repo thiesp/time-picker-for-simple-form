@@ -22,7 +22,7 @@ module TimeWrapper
 
       def generate_javascripts
         template "time_wrapper.js", "app/assets/javascripts/time_wrapper.js"
-        copy_file "time_wrapper/time_wrapper.coffee.erb", "app/assets/javascripts/time_wrapper.coffee.erb"
+        copy_file "time_wrapper/time_wrapper.coffee.erb", "app/assets/javascripts/time_wrapper/time_wrapper.coffee.erb"
       end
     end
   end

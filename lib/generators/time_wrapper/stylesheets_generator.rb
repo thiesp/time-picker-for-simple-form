@@ -20,7 +20,7 @@ module TimeWrapper
       private
 
       def generate_stylesheets
-        template "time_wrapper.scss", "app/assets/javascripts/time_wrapper.scss"
+        template "time_wrapper.scss", "app/assets/stylesheets/time_wrapper.scss"
       end
     end
   end
