@@ -4,7 +4,7 @@ module TimeWrapper
 
     def time_attribute(*options)
       options.each do |attribute|
-        raise TypeError.new("'#{attribute}' is not of column-type datetime") unless columns.detect{|column| column.name == attribute.to_s}.type.to_s == 'datetime'
+        raise TypeError.new("'#{attribute}' is not of column-type datetime") unless (column = columns.detect{|column| column.name == attribute.to_s}) && column.type.to_s == 'datetime'
 
         include ClassMethods
 
