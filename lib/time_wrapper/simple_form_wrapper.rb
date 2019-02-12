@@ -5,8 +5,10 @@
     b.use :label, class: 'form-control-label'
     b.wrapper tag: 'div', class: 'input-group time timepicker' do |input|
       input.use :input, class: 'form-control', autocomplete: :off
-      input.wrapper tag: 'span', class: 'input-group-addon' do |addon|
-        addon.wrapper tag: 'i', class: "fa fa-clock-o" do |_|
+      input.wrapper tag: 'span', class: 'input-group-addon input-group-append' do |addon|
+        addon.wrapper tag: 'span', class: 'input-group-text' do |text|
+          text.wrapper tag: 'i', class: "fa fa-clock-o" do |_|
+          end
         end
       end
     end
